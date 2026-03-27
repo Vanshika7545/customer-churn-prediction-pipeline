@@ -26,3 +26,12 @@ notebooks/ → analysis notebooks
 src/ → ML pipeline code
 app/ → backend API
 models/ → saved models
+
+📊 Data Understanding
+Dataset: Telco Customer Churn dataset
+Total Records: (fill after running)
+Features: (number of columns)
+Initial Observations
+Observed class imbalance in churn distribution
+Certain features like tenure and contract type appear influential
+Further analysis required for feature engineering
