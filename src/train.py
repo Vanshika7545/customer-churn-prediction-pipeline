@@ -25,4 +25,4 @@ print("Model trained and saved successfully ")
 
 # Save feature columns
 with open("models/columns.pkl", "wb") as f:
-    pickle.dump(X_train.columns, f)
+    pickle.dump(list(X_train.columns), f)
