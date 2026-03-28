@@ -1,5 +1,6 @@
 from src.data_preprocessing import load_data, preprocess_data, split_data, scale_data
 from src.model import train_model, save_model, save_scaler
+import pickle
 
 # Step 1: Load data
 df = load_data("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
@@ -21,3 +22,7 @@ save_model(model)
 save_scaler(scaler)
 
 print("Model trained and saved successfully ")
+
+# Save feature columns
+with open("models/columns.pkl", "wb") as f:
+    pickle.dump(X_train.columns, f)
