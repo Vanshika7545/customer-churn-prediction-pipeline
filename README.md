@@ -155,16 +155,13 @@ User → Streamlit UI → FastAPI → ML Model → Prediction
 ## 🖥️ Demo
 
 ### 🔹 Streamlit UI
-
-(Add screenshot here)
+![Streamlit UI](images/ui.png)
 
 ### 🔹 Prediction Output
-
-(Add screenshot here)
+![Prediction Output](images/output.png)
 
 ### 🔹 API Docs
-
-(Add screenshot here)
+![API Docs](images/api.png)
 
 ---
 

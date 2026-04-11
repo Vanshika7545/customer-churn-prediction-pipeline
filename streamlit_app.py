@@ -29,10 +29,10 @@ if st.button("Predict", key="predict_btn"):
     prob = result["probability"]
 
     # Show result
-    if churn == "Yes":
-        st.error("⚠️ Customer likely to churn")
+    if churn:
+        st.error("Customer is likely to churn.")
     else:
-        st.success("✅ Customer likely to stay")
+        st.success("Customer is unlikely to churn.")
 
     st.metric("Churn Probability", f"{prob:.2%}")
 
